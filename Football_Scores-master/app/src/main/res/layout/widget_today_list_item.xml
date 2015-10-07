@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/widget_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_list_item_height"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/widget_vertical_padding"
+        android:paddingEnd="@dimen/widget_horizontal_padding"
+        android:paddingLeft="@dimen/widget_horizontal_padding"
+        android:paddingRight="@dimen/widget_horizontal_padding"
+        android:paddingStart="@dimen/widget_horizontal_padding"
+        android:paddingTop="@dimen/widget_vertical_padding">
+
+        <TextView
+            android:id="@+id/widget_home_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/primary_dark_material_dark"
+            android:textSize="@dimen/widget_team_names" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_score_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/primary_dark"
+                android:textSize="@dimen/widget_score" />
+
+            <TextView
+                android:id="@+id/widget_data_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/primary_dark_material_light"
+                android:textSize="@dimen/widget_time" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_away_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/primary_dark_material_dark"
+            android:textSize="@dimen/widget_team_names" />
+    </LinearLayout>
+</FrameLayout>
