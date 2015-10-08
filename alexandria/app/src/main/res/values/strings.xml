@@ -13,6 +13,7 @@
     <string name="action_settings">Settings</string>
     <string name="scan_button">Open Scanner</string>
     <string name="input_hint">Insert ISBN-13. Digits only.</string>
+    <string name="add_hint">Type in ISBN or tap the Open Scanner button to scan a book.</string>
     <string name="book_cover">Bookcover</string>
 
     // Changed "Next" to "Add Book" for clarification
