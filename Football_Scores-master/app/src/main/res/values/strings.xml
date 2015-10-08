@@ -11,6 +11,7 @@
     <string name="title_activity_about">AboutActivity</string>
 
     //Sharing Hashtag
+    <string name="share_button_content">Button to share the match.</string>
     <string name="share_hashtag" translatable="false">#Football Scores</string>
 
     // Simple Day Names
